@@ -1,0 +1,140 @@
+
+.tb {
+  display: table;
+  width: 100%;
+}
+
+.td {
+  display: table-cell;
+}
+
+main {
+  margin: 0 auto;
+  overflow: hidden;
+  padding-top: 6rem;
+  padding-bottom:2.5rem;
+}
+
+/* Profile image header */
+#profile-upper {
+  position: relative;
+}
+
+#profile-d {
+  position: absolute;
+  left: 59px;
+  bottom: 0px;
+  right: 0px;
+  height: 180px;
+  z-index: 2;
+}
+
+#profile-banner-image {
+  height: 240px;
+  overflow: hidden;
+  background-color: #e7ff96;
+}
+
+
+#profile-pic {
+  width: 180px;
+  height: 180px;
+  border-radius: 3px;
+  margin-top: 28px;
+  overflow: hidden;
+  box-shadow: 0 0 0 5px #fff;
+}
+
+
+#u-name {
+  position: absolute;
+  top: 120px;
+  left: 208px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+
+#black-grd {
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  height: 300px;
+  background: linear-gradient(rgba(0, 0, 0, 0) 71%, rgba(0, 0, 0, 0.53));
+  z-index: 1;
+}
+/* Profile image header finished */
+
+/* Content area */
+#main-content {
+  padding: 55px 0px 0px 55px;
+}
+
+#m-col{
+  vertical-align: top;
+}
+
+.l-cnt {
+  padding: 20px;
+  width: 180px;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px #ddd;
+}
+
+.l-i {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 2px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  vertical-align: middle;
+}
+
+#l-i-i {
+  background-image: url("https://imagizer.imageshack.com/img922/7749/C8tmwX.png");
+  background-position: 0 -87px;
+}
+
+.cnt-label {
+  position: relative;
+  padding-right: 24px;
+  margin-bottom: 15px;
+}
+
+.cnt-label span {
+  position: relative;
+  top: 2px;
+  color: #707070;
+  font-size: 18px;
+}
+
+.lb-action {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+}
+
+#i-box {
+  color: #797979;
+  font-size: 14px;
+}
+
+#m-col {
+  padding: 0px 55px;
+}
+
+
+.post {
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 3px 3px #ddd;
+  width: 900px;
+}
+
+/* Content area finished */
+
+/* Validaciones styles*/

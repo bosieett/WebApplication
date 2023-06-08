@@ -1,0 +1,15 @@
+servlets\PostServ.class
+servlets\cerrarsesion.class
+servlets\AdvancedSearchServ.class
+servlets\ToCatServ.class
+DAO\PostDAO.class
+servlets\EditPubliServlet.class
+servlets\ElimPubliServlet.class
+clases\ConexionSQL.class
+clases\Usuario.class
+servlets\BuscarPostServ.class
+servlets\RegServ.class
+clases\Publicacion.class
+servlets\LoginServ.class
+DAO\UserDAO.class
+servlets\EditUserServlet.class
